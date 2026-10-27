@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fdeaf1"/><stop offset="1" stop-color="#eb9ab8"/></linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.18"/></filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <circle cx="320" cy="60" r="70" fill="#fff" opacity="0.18"/>
+  <circle cx="70" cy="250" r="50" fill="#fff" opacity="0.15"/>
+  <g filter="url(#sh)">
+
+    <path d="M200 90 q-50 -20 -110 -10 v160 q60 -10 110 10z" fill="#ffffff"/>
+    <path d="M200 90 q50 -20 110 -10 v160 q-60 -10 -110 10z" fill="#f7f7f7"/>
+    <path d="M200 90 v160" stroke="#d6d6d6" stroke-width="3"/>
+    <path d="M110 110 q40 -6 75 6 M110 130 q40 -6 75 6 M110 150 q40 -6 75 6 M110 170 q40 -6 75 6" fill="none" stroke="#c9c9d6" stroke-width="4" stroke-linecap="round"/>
+    <path d="M215 116 q40 -12 75 -6 M215 136 q40 -12 75 -6 M215 156 q40 -12 75 -6" fill="none" stroke="#c9c9d6" stroke-width="4" stroke-linecap="round"/>
+    <path d="M255 72 v60 l12 -10 l12 10 v-62" fill="#e0457b"/>
+  </g>
+</svg>
